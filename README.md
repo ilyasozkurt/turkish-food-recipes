@@ -1,6 +1,6 @@
-# Turkish Food Recipe Dataset + Scraper
+# Turkish Food Recipe Scraper
 
-A scrapper which allows you to scrape 20000+ food recipes from Turkish cousine.
+A scrapper which allows you to scrape 20000+ Turkish food recipes and export them to json files.
 
 ## How to install and use Scrapper?
 
