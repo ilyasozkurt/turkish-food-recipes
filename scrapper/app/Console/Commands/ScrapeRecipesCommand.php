@@ -125,8 +125,10 @@ class ScrapeRecipesCommand extends Command
 
             $recipeRAWData = json_decode($recipeRAWData, true);
             $recipeContent = $recipeRAWData['props']['pageProps']['initialState']['content'];
+            $recipeContentJSON = json_encode($recipeContent, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+            $recipeID = $recipeContent['PostId'];
 
-            Storage::put('recipes/' . $recipeContent['PostId'] . '.json', json_encode($recipeContent, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE));
+            $this->forceFilePutContents('../data/' . $recipeID . '.json', $recipeContentJSON);
 
             $progressBar->advance();
 
@@ -136,6 +138,23 @@ class ScrapeRecipesCommand extends Command
 
         $this->info('');
         $this->info('Recipes scraped!');
+
+    }
+
+    private function forceFilePutContents(string $fullPathWithFileName, string $fileContents)
+    {
+
+        $exploded = explode(DIRECTORY_SEPARATOR, $fullPathWithFileName);
+
+        array_pop($exploded);
+
+        $directoryPathOnly = implode(DIRECTORY_SEPARATOR, $exploded);
+
+        if (!file_exists($directoryPathOnly)) {
+            mkdir($directoryPathOnly, 0775, true);
+        }
+
+        file_put_contents($fullPathWithFileName, $fileContents);
 
     }
 
