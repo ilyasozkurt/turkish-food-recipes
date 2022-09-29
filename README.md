@@ -1,5 +1,7 @@
 # Turkish Food Recipe Scraper
 
+![](/sample.json.png)
+
 A scrapper which allows you to scrape 20000+ Turkish food recipes and export them to json files.
 
 ## How to install and use Scrapper?
@@ -12,8 +14,10 @@ The `--force-download` option downloads all sitemaps instead of reading from cac
 
 ## How to use the dataset?
 
-After you run the command `php artisan scrape:recipes --force-download` you'll be able to see `/data/` directory on root of the project. 
+After you run the command `php artisan scrape:recipes --force-download` you'll be able to see `/data/` directory on root of the project.
 
-The dataset is in JSON format. 
+## Sample Data of Scrapping
+
+You can find the sample data at [`/data/sample.json`](/data/sample.json) path.
 
 Enjoy!
