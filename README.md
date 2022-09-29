@@ -1,7 +1,5 @@
 # Turkish Food Recipe Scraper
 
-![](/sample.json.png)
-
 A scrapper which allows you to scrape 20000+ Turkish food recipes and export them to json files.
 
 ## How to install and use Scrapper?
