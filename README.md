@@ -12,7 +12,7 @@ The `--force-download` option downloads all sitemaps instead of reading from cac
 
 ## How to use the dataset?
 
-After you run the command `php artisan scrape:recipes --force-download` you'll be able to see `/data/` directory on root of the project.
+After you run the command `php artisan scrape:recipes --force-download` you'll be able to see scrapped data under `/data/` directory on root of the project.
 
 ## Sample Data of Scrapping
 
