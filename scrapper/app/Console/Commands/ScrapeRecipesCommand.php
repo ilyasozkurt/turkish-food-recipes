@@ -38,7 +38,7 @@ class ScrapeRecipesCommand extends Command
             $this->downloadSitemaps();
         }
 
-        $this->scrapeRecipes();
+        $this->scrapeRecipes($forceDownload);
 
         $this->info('Scraping recipes...');
 
@@ -51,7 +51,7 @@ class ScrapeRecipesCommand extends Command
 
         $this->info('Loading yemek.com sitemap index file');
 
-        $sitemapSource = Http::get('https://yemek.com/sitemap_index.xml')->body();
+        $sitemapSource = Http::retry(10, 100)->get('https://yemek.com/sitemap_index.xml')->body();
 
         if (empty($sitemapSource) || !str_contains($sitemapSource, '<sitemapindex')) {
             $this->error('Sitemap index file is empty or wrong formatted!');
@@ -79,7 +79,7 @@ class ScrapeRecipesCommand extends Command
         $sitemapProgress = $this->output->createProgressBar($sitemapCount);
 
         foreach ($sitemapURLs as $sitemapURL) {
-            $recipeSitemapSource = Http::get($sitemapURL)->body();
+            $recipeSitemapSource = Http::retry(10, 100)->get($sitemapURL)->body();
             $recipeSitemapXML = new \SimpleXMLElement($recipeSitemapSource);
             foreach ($recipeSitemapXML->url as $recipeItem) {
                 if ($recipeItem->loc != 'https://yemek.com/tarif/') {
@@ -102,7 +102,7 @@ class ScrapeRecipesCommand extends Command
 
     }
 
-    private function scrapeRecipes()
+    private function scrapeRecipes(bool $forceDownload)
     {
 
         include app_path('Libraries/simple_html_dom.php');
@@ -112,23 +112,37 @@ class ScrapeRecipesCommand extends Command
 
         foreach ($recipeURLs as $recipeURL) {
 
-            $recipeSource = Http::get($recipeURL)->body();
+            $recipeHash = hash('crc32', $recipeURL);
+            $recipeSavePath = '../data/' . $recipeHash . '.json';
 
-            $recipeDOM = str_get_html($recipeSource);
-
-            $recipeRAWData = $recipeDOM->find('#__NEXT_DATA__', 0)->innertext;
-
-            if (empty($recipeRAWData)) {
-                $this->error('Recipe data is empty!');
+            if (!$forceDownload && file_exists($recipeSavePath)){
+                $progressBar->advance();
                 continue;
             }
 
-            $recipeRAWData = json_decode($recipeRAWData, true);
-            $recipeContent = $recipeRAWData['props']['pageProps']['initialState']['content'];
-            $recipeContentJSON = json_encode($recipeContent, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-            $recipeID = $recipeContent['PostId'];
+            try {
 
-            $this->forceFilePutContents('../data/' . $recipeID . '.json', $recipeContentJSON);
+                $recipeSource = Http::retry(10, 100)->get($recipeURL)->getBody();
+
+                $recipeDOM = str_get_html($recipeSource);
+
+                $recipeRAWData = $recipeDOM->find('#__NEXT_DATA__', 0)->innertext;
+
+                if (empty($recipeRAWData)) {
+                    $this->error('Recipe data is empty!');
+                    continue;
+                }
+
+                $recipeRAWData = json_decode($recipeRAWData, true);
+                $recipeContent = $recipeRAWData['props']['pageProps']['initialState']['content'];
+                $recipeContentJSON = json_encode($recipeContent, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+
+                $this->forceFilePutContents($recipeSavePath, $recipeContentJSON);
+
+            }catch (\Exception $exception){
+                $this->info('');
+                $this->error($exception->getMessage());
+            }
 
             $progressBar->advance();
 
