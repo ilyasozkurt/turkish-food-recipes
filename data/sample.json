@@ -1,0 +1,738 @@
+{
+    "ContentTitle": "Baş Döndüren Lezzet: Pizza Rolls",
+    "FeaturedImage": "https://cdn.yemek.com/mncrop/940/625/uploads/2021/02/pizza-rolls-vanilla.jpg",
+    "FeaturedImageAlt": "",
+    "MaxImage": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/02/pizza-rolls-vanilla.jpg",
+    "SchemaImages": {
+        "ymk-original": {
+            "Path": "https://cdn.yemek.com/mnresize/940/940/uploads/2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 940,
+            "Height": 940,
+            "Croped": false
+        },
+        "ymk-thumbnail": {
+            "Path": "https://cdn.yemek.com/mncrop/300/200/uploads/2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 300,
+            "Height": 200,
+            "Croped": true
+        },
+        "ymk-large": {
+            "Path": "https://cdn.yemek.com/mncrop/940/625/uploads/2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 940,
+            "Height": 625,
+            "Croped": true
+        },
+        "ymk-medium": {
+            "Path": "https://cdn.yemek.com/mncrop/620/388/uploads/2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 620,
+            "Height": 388,
+            "Croped": true
+        },
+        "ymk-social": {
+            "Path": "https://cdn.yemek.com/mncrop/600/315/uploads/2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 600,
+            "Height": 315,
+            "Croped": true
+        },
+        "ymk-max-image": {
+            "Path": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 1250,
+            "Height": 833,
+            "Croped": false
+        }
+    },
+    "ContentText": "<p>Cinnamon roll'u sanırım görmeyen denemeyen kalmadı. Biz de dedik ki o zaman en sevdiğimiz şeylerden biriyle neden denemeyelim... Pizza sevenlere pizza rolls tarifi geldi.</p> ",
+    "ContentDate": "2021-02-13T19:07:50",
+    "Author": {
+        "Id": 393816,
+        "Permalink": "/profil/vanillandcoco/",
+        "LoginName": "vanillandcoco",
+        "DisplayName": "vanillandcoco",
+        "Description": "Yoğun stresten mutfağa kaçıp huzuru arayan amatör bir ruh... Tam bir işkolik... Daha fazlası için Instagram hesabıma beklerim vanillandcoco📷",
+        "CoverImageUrl": "https://cdn.yemek.com/author/common/cover.png",
+        "AvatarImageUrl": "https://cdn.yemek.com/author/393816/20210201062603_avatar.jpeg",
+        "Type": 0,
+        "FacebookUrl": "",
+        "TwitterUrl": "",
+        "BlogUrl": "",
+        "InstagramUrl": "vanillandcoco?igshid=lh86aujcpahl",
+        "GoolgePlusUrl": "",
+        "YoutubeUrl": "",
+        "PinterestUrl": null,
+        "TiktokUrl": null,
+        "Gender": 1,
+        "FollowCount": 6,
+        "FollowerCount": 14376,
+        "PostCount": 0,
+        "RecipeCount": 18
+    },
+    "CategoryId": 13,
+    "CategoryName": "Hamur İşi",
+    "PostId": 87697,
+    "AllData": {
+        "RecipeId": 16885,
+        "Helmet": null,
+        "Content": "<p>Cinnamon roll'u sanırım görmeyen denemeyen kalmadı. Biz de dedik ki o zaman en sevdiğimiz şeylerden biriyle neden denemeyelim... Pizza sevenlere pizza rolls tarifi geldi.</p>\n",
+        "Date": "2021-02-13T19:07:50",
+        "HasBigImage": false,
+        "HideTheDate": false,
+        "ShowFullImage": true,
+        "YoutubeId": "ODhdYX3vWM0",
+        "ContentYoutubeId": "",
+        "ContentYoutubeTitle": "",
+        "ContentYoutubeShortsTitle": null,
+        "ContentYoutubeShortsId": null,
+        "ContentInstagramReelsTitle": null,
+        "ContentInstagramReelsUrl": null,
+        "NoktaVideoId": null,
+        "Widgets": [
+            {
+                "Label": "featured_posts_title",
+                "Items": [
+                    {
+                        "Data": {
+                            "Title": "",
+                            "Text": "bu tarifle iyi gider"
+                        },
+                        "Type": 3,
+                        "Priority": 1
+                    }
+                ]
+            }
+        ],
+        "Servings": "12",
+        "ServingUnit": "adet",
+        "PrepTime": 20,
+        "PrepTimeUnit": "dakika",
+        "CookTime": 30,
+        "CookTimeUnit": "dakika",
+        "RatePoint": 0,
+        "RateCount": 0,
+        "Trick": "Domates sosunuz hamuru yumuşatmaması için katı kıvamda olmalı. Tezgahı unlamadan açarsanız hamur tezgaha yapışabilir ve sarma işlemini yaparken zorlanabilirsiniz.",
+        "CookingProposal": null,
+        "ServiceProposal": null,
+        "PerServingCalories": 0,
+        "CaloriesContent": null,
+        "NutritionalValue": null,
+        "RecipeToYemeksepetiTitle": null,
+        "RecipeToYemeksepetiDescription": null,
+        "IngredientGroups": [
+            {
+                "Name": "Hamuru için:",
+                "Items": [
+                    {
+                        "Quantity": "500",
+                        "Unit": {
+                            "Name": "gram",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 17,
+                            "Name": "un",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "325",
+                        "Unit": {
+                            "Name": "mililitre",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 140,
+                            "Name": "ılık su",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "paket",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 244,
+                            "Name": "kuru maya",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "çay kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 9,
+                            "Name": "tuz",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "çay kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 1883,
+                            "Name": "şeker",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    }
+                ]
+            },
+            {
+                "Name": "Domates sos için:",
+                "Items": [
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "su bardağı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 374,
+                            "Name": "domates püresi",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": "",
+                            "BrandLogoImpression": ""
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "çay kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 9,
+                            "Name": "tuz",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "çay kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 1883,
+                            "Name": "şeker",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1/2",
+                        "Unit": {
+                            "Name": "çay kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 36,
+                            "Name": "karabiber",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "çay kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 80,
+                            "Name": "kekik",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1/2",
+                        "Unit": {
+                            "Name": "tatlı kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 63,
+                            "Name": "domates salçası",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1/2",
+                        "Unit": {
+                            "Name": "tatlı kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 5,
+                            "Name": "biber salçası",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "tatlı kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 593,
+                            "Name": "ketçap",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    }
+                ]
+            },
+            {
+                "Name": "Üzeri için:",
+                "Items": [
+                    {
+                        "Quantity": "100",
+                        "Unit": {
+                            "Name": "gram",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 474,
+                            "Name": "mozzarella peyniri",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "20",
+                        "Unit": {
+                            "Name": "dilim",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 854,
+                            "Name": "sucuk",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    },
+                    {
+                        "Quantity": "1",
+                        "Unit": {
+                            "Name": "yemek kaşığı",
+                            "Description": ""
+                        },
+                        "Ingredient": {
+                            "Id": 30,
+                            "Name": "zeytinyağı",
+                            "Description": "",
+                            "BrandLogo": null,
+                            "BrandLogoUrl": null,
+                            "BrandLogoImpression": null
+                        },
+                        "Note": null,
+                        "Media": null,
+                        "ImagePathSmall": null,
+                        "ImagePathLarge": null
+                    }
+                ]
+            }
+        ],
+        "InstructionGroups": [
+            {
+                "Name": null,
+                "Instructions": [
+                    {
+                        "Description": "Mayayı suya şeker ile beraber ekliyoruz. Aktive olması için 5 dakika bekliyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Unu geniş bir kaba alıp üzerine aktive olmuş mayayı ekliyoruz. Bir çatal yardımıyla artık karışamayacak hale gelene kadar karıştırıyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Önce kasesinde 5 dakika kadar yoğurup sonra hafif unlanmış tezgaha alıp 5dakika daha pürüzsüz ve esnek bir hamur olana kadar yoğuruyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Hamuru zeytinyağıyla yağlanmış bir kapta iki katına çıkana kadar mayalanması için bırakıyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Bu esnada domates sos için ketçap ve kekik hariç tüm malzemeleri bir tencereye alıp pişirmeye başlıyoruz. Kaynadıktan sonra yaklaşık 20dakika kısık ateşte pişiriyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "20 dakika sonunda altını kapatıp ketçap ve kekiği ekleyip soğumaya bırakıyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Mayalanan hamuru bol unlanmış tezgahta büyük bir dikdörtgen olana kadar açıyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Üzerinin tamamına domates sosunu sürüyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Mozerellayı ekliyoruz. Üzerine çok ince dilimlenmiş yaklaşık 20 dilim sucuğu diziyoruz",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Hamuru uzun kenarlarından içe doğru rulo olarak sarıyoruz. İki parmak kalınlığında hamuru kesiyoruz.",
+                        "Media": null
+                    },
+                    {
+                        "Description": "Tepsiye aralıklarla diziyoruz. En son üzerlerine zeytinyağı sürüp 200 derece önceden ısıtılmış fırında kızarana kadar pişiriyoruz.",
+                        "Media": null
+                    }
+                ]
+            }
+        ],
+        "HasMultipleImages": false,
+        "Lists": null,
+        "Breadcrumb": [
+            {
+                "Label": "YEMEK",
+                "ColorHexValue": null,
+                "ColorHexCode": null,
+                "Url": "/"
+            },
+            {
+                "Label": "YEMEK TARİFLERİ",
+                "ColorHexValue": "orange",
+                "ColorHexCode": null,
+                "Url": "/tarif/"
+            },
+            {
+                "Label": "HAMUR İŞİ",
+                "ColorHexValue": "greenLight",
+                "ColorHexCode": "",
+                "Url": "/tarif/hamur-isi/"
+            }
+        ],
+        "Details": [],
+        "Category": {
+            "Id": 13,
+            "Permalink": "/tarif/hamur-isi/",
+            "Name": "Hamur İşi",
+            "ClassName": null,
+            "Description": "Misafir için ne hazırlasam derdine düşenler, bu akşam çayın yanına ne iyi gider diye düşünenler, sürekli aynı yemeği yapmaktan sıkılanlar… İster ana yemek olarak isterseniz de aperatif olarak hazırlayabileceğiniz lezzetli ve pratik hamur işi tarifleri imdadınıza koşacak. Poğaça, börek, mantı, pizza, pide, açma gibi aradığınız birçok tarife kolaylıkla ulaşabilir, damak zevkinize uygun tarifi seçebilirsiniz. Böylelikle size az zaman harcayarak nefis yemekler ortaya çıkarmak kalır.",
+            "ColorHexValue": "greenLight",
+            "ColorHexCode": "",
+            "YoutubeId": "",
+            "BackgroundImage": {
+                "Id": 19850,
+                "Title": "hamur-isleri-kat",
+                "Type": 1,
+                "SourceName": null,
+                "SourceUrl": null,
+                "Alt": null,
+                "Path": "2015/12/hamur-isleri-kat.jpg",
+                "Width": 140,
+                "Height": 93,
+                "MediaData": {
+                    "ymk-original": {
+                        "Path": "https://cdn.yemek.com/mnresize/940/940/uploads/2015/12/hamur-isleri-kat.jpg",
+                        "Width": 940,
+                        "Height": 940,
+                        "Croped": false
+                    },
+                    "ymk-thumbnail": {
+                        "Path": "https://cdn.yemek.com/mncrop/300/200/uploads/2015/12/hamur-isleri-kat.jpg",
+                        "Width": 300,
+                        "Height": 200,
+                        "Croped": true
+                    },
+                    "ymk-large": {
+                        "Path": "https://cdn.yemek.com/mncrop/940/625/uploads/2015/12/hamur-isleri-kat.jpg",
+                        "Width": 940,
+                        "Height": 625,
+                        "Croped": true
+                    },
+                    "ymk-medium": {
+                        "Path": "https://cdn.yemek.com/mncrop/620/388/uploads/2015/12/hamur-isleri-kat.jpg",
+                        "Width": 620,
+                        "Height": 388,
+                        "Croped": true
+                    },
+                    "ymk-social": {
+                        "Path": "https://cdn.yemek.com/mncrop/600/315/uploads/2015/12/hamur-isleri-kat.jpg",
+                        "Width": 600,
+                        "Height": 315,
+                        "Croped": true
+                    }
+                }
+            },
+            "MobileImage": null,
+            "HeaderImage": null,
+            "Type": 2,
+            "PostCount": 2821,
+            "ParentCategoryId": null,
+            "RecipeOrder": "[112825,102149,15977,112148,4156,114135,110201,109190,1449,114211,1041,108774,30499,2433,27645,24125,8439,110397,2643,108440,107735,5601,103881,34173]",
+            "SeoBox": [],
+            "IsPrimary": null,
+            "CategoryBrand": null,
+            "Childs": []
+        },
+        "CategoryIdList": [
+            94,
+            13,
+            50
+        ],
+        "IsRamadan": false,
+        "RamadanPosts": null,
+        "IsRamadanRecipe": false,
+        "PostBanner": null,
+        "Brands": null,
+        "PreviewTime": 30,
+        "PreviewTimeType": "dakika",
+        "RateAverage": 0,
+        "IsVideo": false,
+        "ShortTitle": "Pizza Rolls",
+        "Id": 87697,
+        "Permalink": "/tarif/pizza-rolls/",
+        "Title": "Baş Döndüren Lezzet: Pizza Rolls",
+        "Excerpt": "",
+        "Author": {
+            "Id": 393816,
+            "Permalink": "/profil/vanillandcoco/",
+            "LoginName": "vanillandcoco",
+            "DisplayName": "vanillandcoco",
+            "Description": "Yoğun stresten mutfağa kaçıp huzuru arayan amatör bir ruh... Tam bir işkolik... Daha fazlası için Instagram hesabıma beklerim vanillandcoco📷",
+            "CoverImageUrl": "https://cdn.yemek.com/author/common/cover.png",
+            "AvatarImageUrl": "https://cdn.yemek.com/author/393816/20210201062603_avatar.jpeg",
+            "Type": 0,
+            "FacebookUrl": "",
+            "TwitterUrl": "",
+            "BlogUrl": "",
+            "InstagramUrl": "vanillandcoco?igshid=lh86aujcpahl",
+            "GoolgePlusUrl": "",
+            "YoutubeUrl": "",
+            "PinterestUrl": null,
+            "TiktokUrl": null,
+            "Gender": 1,
+            "FollowCount": 6,
+            "FollowerCount": 14376,
+            "PostCount": 0,
+            "RecipeCount": 18
+        },
+        "FeaturedImage": {
+            "Id": 401087,
+            "Title": "pizza-rolls-vanilla",
+            "Type": 1,
+            "SourceName": null,
+            "SourceUrl": null,
+            "Alt": null,
+            "Path": "2021/02/pizza-rolls-vanilla.jpg",
+            "Width": 1250,
+            "Height": 833,
+            "MediaData": {
+                "ymk-original": {
+                    "Path": "https://cdn.yemek.com/mnresize/940/940/uploads/2021/02/pizza-rolls-vanilla.jpg",
+                    "Width": 940,
+                    "Height": 940,
+                    "Croped": false
+                },
+                "ymk-thumbnail": {
+                    "Path": "https://cdn.yemek.com/mncrop/300/200/uploads/2021/02/pizza-rolls-vanilla.jpg",
+                    "Width": 300,
+                    "Height": 200,
+                    "Croped": true
+                },
+                "ymk-large": {
+                    "Path": "https://cdn.yemek.com/mncrop/940/625/uploads/2021/02/pizza-rolls-vanilla.jpg",
+                    "Width": 940,
+                    "Height": 625,
+                    "Croped": true
+                },
+                "ymk-medium": {
+                    "Path": "https://cdn.yemek.com/mncrop/620/388/uploads/2021/02/pizza-rolls-vanilla.jpg",
+                    "Width": 620,
+                    "Height": 388,
+                    "Croped": true
+                },
+                "ymk-social": {
+                    "Path": "https://cdn.yemek.com/mncrop/600/315/uploads/2021/02/pizza-rolls-vanilla.jpg",
+                    "Width": 600,
+                    "Height": 315,
+                    "Croped": true
+                },
+                "ymk-max-image": {
+                    "Path": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/02/pizza-rolls-vanilla.jpg",
+                    "Width": 1250,
+                    "Height": 833,
+                    "Croped": false
+                }
+            }
+        },
+        "PostType": 2,
+        "FromUsers": true,
+        "IsSponsored": false,
+        "Label": {
+            "Name": "YEMEK TARİFLERİ",
+            "Color": "orange",
+            "ColorHexCode": null,
+            "PermaLink": "/tarif/"
+        },
+        "ViewCount": 975,
+        "FavoriteCount": 13,
+        "RelatedUrlList": null
+    },
+    "RatePoint": 0,
+    "List": null,
+    "YoutubeId": "ODhdYX3vWM0",
+    "NoktaVideoId": "",
+    "Breadcrumbs": [
+        {
+            "Label": "YEMEK",
+            "ColorHexValue": null,
+            "ColorHexCode": null,
+            "Url": "/"
+        },
+        {
+            "Label": "YEMEK TARİFLERİ",
+            "ColorHexValue": "orange",
+            "ColorHexCode": null,
+            "Url": "/tarif/"
+        },
+        {
+            "Label": "HAMUR İŞİ",
+            "ColorHexValue": "greenLight",
+            "ColorHexCode": "",
+            "Url": "/tarif/hamur-isi/"
+        }
+    ],
+    "FromUsers": false,
+    "isPreview": false,
+    "isFullImage": true,
+    "details": [],
+    "Permalink": "/tarif/pizza-rolls/",
+    "loaded": true,
+    "loading": false,
+    "PerServingCalories": 0,
+    "Quiz": [],
+    "CategoryIdList": [
+        94,
+        13,
+        50
+    ],
+    "RelatedUrlList": [],
+    "ViewCount": 975,
+    "ContentYoutubeId": "",
+    "ContentYoutubeTitle": "",
+    "PostBanner": [],
+    "NutritionalValue": "",
+    "CaloriesContent": "",
+    "ContentYoutubeShortsTitle": null,
+    "ContentYoutubeShortsId": null,
+    "ContentInstagramReelsTitle": null,
+    "ContentInstagramReelsUrl": null,
+    "isLoading": true,
+    "brand": [],
+    "ContentTextAMP": "<p>Cinnamon roll'u sanırım görmeyen denemeyen kalmadı. Biz de dedik ki o zaman en sevdiğimiz şeylerden biriyle neden denemeyelim... Pizza sevenlere pizza rolls tarifi geldi.</p>\n",
+    "RateCount": 0,
+    "AuthorType": 0,
+    "isFromUser": true,
+    "publishDate": "2021-02-13T19:07:50",
+    "EmpowerVideo": []
+}
