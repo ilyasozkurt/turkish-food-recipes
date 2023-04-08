@@ -19,3 +19,5 @@ After you run the command `php artisan scrape:recipes --force-download` you'll b
 You can find the sample data at [`/data/sample.json`](/data/sample.json) path.
 
 Enjoy!
+
+Sponsored by [freestockphotos.site](https://freestockphotos.site "Free Stock Photos.site")
