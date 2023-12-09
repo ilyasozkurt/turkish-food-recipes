@@ -20,4 +20,4 @@ You can find the sample data at [`/data/sample.json`](/data/sample.json) path.
 
 Enjoy!
 
-Sponsored by [hometrust.app](https://hometrust.app "Property Reviews Platform")
+Sponsored by [trustlocale.com](https://trustlocale.com "Neighborhood Reviews, Insights")
