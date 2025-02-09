@@ -51,7 +51,7 @@ class ScrapeRecipesCommand extends Command
 
         $this->info('Loading yemek.com sitemap index file');
 
-        $sitemapSource = Http::retry(10, 100)->get('https://yemek.com/sitemap_index.xml')->body();
+        $sitemapSource = Http::retry(10, 100)->get('https://yemek.com/sitemaps/sitemap_index.xml')->body();
 
         if (empty($sitemapSource) || !str_contains($sitemapSource, '<sitemapindex')) {
             $this->error('Sitemap index file is empty or wrong formatted!');
