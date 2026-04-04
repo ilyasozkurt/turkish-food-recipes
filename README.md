@@ -20,4 +20,5 @@ You can find the sample data at [`/data/sample.json`](/data/sample.json) path.
 
 Enjoy!
 
-Sponsored by [offday.app](https://trustlocale.com "Discover the best days off to maximize your holiday!")
+Sponsored by [offday.app](https://offday.app "Discover the best days off to maximize your holiday!")
+Sponsored by [uptimetick.com](https://uptimetick.com "Your alternate uptime monitor")
